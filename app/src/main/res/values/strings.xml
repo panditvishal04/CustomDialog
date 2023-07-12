@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomDialog</string>
+    <string name="Hello">Hello</string>
+    <string name="studying"> You are studying in</string>
+    <string name="btnUpdate">UPDATE</string>
+    <string name="btnClear">CLEAR</string>
+    <string name="custom_dialog">customDialog</string>
+    <string name="enter_your_name">Name</string>
+    <string name="college">College</string>
+    <string name="btnOk">OK</string>
+</resources>
