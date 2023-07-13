@@ -32,9 +32,9 @@ class MainActivity : AppCompatActivity() {
             btnOk.setOnClickListener {
                 binding.etN.setText(etName.text.toString())
                 binding.etC.setText(etCollege.text.toString())
-                if(etName.text.toString().isEmpty()){
+                if(etName.text.toString().isNullOrEmpty()){
                     etName.error = "Enter your name"
-                }else if(etCollege.text.toString().isEmpty()) {
+                }else if(etCollege.text.toString().isNullOrEmpty()) {
                     etCollege.error = "enter your college name"
                 }
                     else{
