@@ -30,14 +30,14 @@ class MainActivity : AppCompatActivity() {
             etName.setText(binding.etN.text.toString())
             etCollege.setText(binding.etC.text.toString())
             btnOk.setOnClickListener {
-                binding.etN.setText(etName.text.toString())
-                binding.etC.setText(etCollege.text.toString())
                 if(etName.text.toString().isNullOrEmpty()){
                     etName.error = "Enter your name"
                 }else if(etCollege.text.toString().isNullOrEmpty()) {
                     etCollege.error = "enter your college name"
                 }
                     else{
+                    binding.etN.setText(etName.text.toString())
+                    binding.etC.setText(etCollege.text.toString())
                         dialog.dismiss()
                     }
 
